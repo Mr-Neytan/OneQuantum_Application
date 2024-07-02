@@ -13,6 +13,7 @@
     position: absolute;
     width: 100%;
     z-index: 1;
+    margin-bottom: 1rem;
 }
 
 .nav-container div {
@@ -63,5 +64,8 @@ button {
         padding: 1rem;
         flex-wrap: wrap;
         justify-content: center;
+    }
+    .gradient-button{
+        display: none;
     }
 }

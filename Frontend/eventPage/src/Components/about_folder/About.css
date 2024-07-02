@@ -1,0 +1,13 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.5rem;
+    text-align: justify;
+}
+
+.large {
+    width: 80%;
+    font: 500 1rem Nunito Sans, sans-serif;
+    font-size: large;
+}
+

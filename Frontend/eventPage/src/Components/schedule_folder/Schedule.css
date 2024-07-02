@@ -1,0 +1,33 @@
+.schedule {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+}
+
+table {
+    width: 80%;
+    border-collapse:separate;
+    border:solid #ad64f7 1px;
+    border-radius:6px;
+    padding: 0;
+}
+
+td, th {
+    border-left:solid #ad64f7 1px;
+    border-top:solid #ad64f7 1px;
+    padding: 1.15rem;
+    
+}
+
+th {
+    background-color: #ad64f7;
+    border:none;
+    padding: 2rem;
+}
+
+td:first-child, th:first-child {
+     border-left: none;
+}
+

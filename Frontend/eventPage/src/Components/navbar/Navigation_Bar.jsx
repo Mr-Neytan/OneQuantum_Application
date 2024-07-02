@@ -9,8 +9,8 @@ const Navigation_Bar = () => {
         <div>
                 <img src={"/onequantum_logo.png"} className='logo'></img>
                 <a href="#">About</a>
-                <a href="#">Blog</a>
-                <a href="#">Workshop</a>
+                <a href="#">FAQs</a>
+                <a href="#">Merch</a>
 
         </div>
             <div>

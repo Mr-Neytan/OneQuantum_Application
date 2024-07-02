@@ -1,0 +1,13 @@
+.speaker-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.speaker {
+    width: 100%;
+    text-align: center;
+}
+
+
