@@ -1,0 +1,67 @@
+.logo {
+    height: 3rem;
+    width: auto;
+}
+
+.nav-container {
+    align-items: center;
+    display: flex;
+    height: 6rem;
+    justify-content: space-between;
+    left: 0;
+    padding: 2rem 3rem 2rem 5rem;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav-container div {
+    align-items: center;
+    column-gap: 2rem;
+    display: flex;
+    height: 100%;
+}
+
+.nav-container a {
+    color: #fff;
+    font-size: 1.15rem;
+    font-weight: 400;
+    transition: color .2s;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-container a:hover {
+    color: #817e85;
+    text-decoration: none;
+}
+
+
+
+button {
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    font: 600 1em Nunito Sans,sans-serif;
+    min-width: 180px;
+    padding: .7rem 1rem;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+.gradient-button:active, .gradient-button:hover, .variation-1-button:active, .variation-1-button:hover, .variation-2-button:active, .variation-2-button:hover, .variation-3-button:active, .variation-3-button:hover {
+    opacity: 60%;
+}
+
+@media screen and (max-width: 767px) {
+    .nav-container {
+        padding: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
