@@ -20,6 +20,13 @@ body{
 
 .section {
   width: 100%;
+  min-height: 85dvh;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.section-jumbotron {
+  width: 100%;
   min-height: 100dvh;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -43,4 +50,8 @@ body{
   background: linear-gradient(90deg, #4217ba, #cba3ff);
   text-align: center;
   transition: opacity .2s ease-in;
+}
+
+img {
+  cursor: pointer;
 }

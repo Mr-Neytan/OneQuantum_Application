@@ -8,9 +8,8 @@ const About = () => {
     <div class="section">
       <div className='content'>
         <p className='caption'>ABOUT THE WORKSHOP</p>
-        <p className="large">This workshop intends to introduce the computing community in the country to Quantum Computing. 
-          The main goal of the workshop is to put together in one venue individuals who are working on, interested in, 
-          and curious about quantum computing, its power to solve interesting problems and its limitations.
+        <p className="large">This workshop intends to inform people about Quantum Computing's potential in Machine Learning and Problem Solving. 
+          The main goal of the workshop is to raise awareness and interest in quantum computing, its power to solve interesting problems and its limitations.
           </p>
         <p className="large">
         We hope to provide a friendly atmosphere during the workshop 

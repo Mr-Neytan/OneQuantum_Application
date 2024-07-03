@@ -14,7 +14,7 @@ const Navigation_Bar = () => {
 
         </div>
             <div>
-            <button className='gradient-button'>
+            <button className='gradient-button disappear'>
                 Contact Us
             </button>
             </div>

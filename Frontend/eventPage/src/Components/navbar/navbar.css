@@ -10,7 +10,7 @@
     justify-content: space-between;
     left: 0;
     padding: 2rem 3rem 2rem 5rem;
-    position: absolute;
+   position: absolute;
     width: 100%;
     z-index: 1;
     margin-bottom: 1rem;
@@ -65,7 +65,7 @@ button {
         flex-wrap: wrap;
         justify-content: center;
     }
-    .gradient-button{
+    .disappear {
         display: none;
     }
 }
